@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-container" id="loginForm">
+        <div class="head-container"><h4>Welcome to LBYH-CBSE..!</h4></div>
+        <div class="toggle-container" style="text-align: center; margin-bottom: 2px; ">
+            <button onclick="toggleForm()">Register</button> 
+        </div>
+        <div style="text-align: center;">
+            "Welcome back! Login to continue your learning adventure"
+        </div>
+        <div>
+            <form action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <div class="option">
+                    <input type="checkbox" id="remember-me" name="remember" class="checkbox"/>
+                    <label for="remember-me">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                
+                    
+            
+                <div style="text-align: center;">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="login-container register-form" id="registerForm">
+        <div class="head-container"><h4>Welcome to LBYH-CBSE..!</h4></div>
+        <div class="toggle-container" style="text-align: center;">
+            <button onclick="toggleForm()">Login</button>
+        </div>
+        <div style="text-align: center;">
+            "Are you ready to take your learning to the next level?"
+        </div>
+        <div>
+            <form action="#" method="post">
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+    
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+    
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <div style="text-align: center;">
+                    <button type="submit">Register</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="script.js">
+    
+    </script>
+</body>
+
+</html>
